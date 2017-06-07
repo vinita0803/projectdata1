@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Welcome</title>
+</head>
+<body>
+<img src="doc.jpg" alt="Mountain View" style="width:1000px;height:1000px;">
+<form name="f1" action="doclogin.html">
+<marquee>Doctor's Appointment</marquee>
+<br>
+<table align="center">
+<tr>
+<td><input type="submit" value="doctor"></td>
+</tr>
+</table>
+</form>
+<form name="f1" action="recplogin.html">
+<table align="center">
+<tr>
+<td><input type="submit" value="Receptionist"></td>
+</tr>
+</table>
+</form>
+</body>
+</html>
