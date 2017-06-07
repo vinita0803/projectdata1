@@ -1,0 +1,8 @@
+CREATE TABLE APPOINT(TYPE VARCHAR2(20),  SLOT NUMBER CHECK(SLOT IN(1,2)),  DATE1 DATE NOT NULL,  COUPON_NO NUMBER(2),  ID NUMBER,PID NUMBER, FOREIGN KEY (ID) REFERENCES DOCTOR(ID),   FOREIGN KEY (PID) REFERENCES PATIENT(PID),  PRIMARY KEY(ID,DATE1,SLOT,COUPON_NO));
+
+create table recp(id number primary key, pass varchar2(10) not null);
+
+create table patient (pid number primary key,pname varchar2(20) not null,padd varchar2(50) not null,contact number(10));
+
+
+create table patient (id number primary key,name varchar2(20) not null,address varchar2(50) not null,contact number(10),pass varchar2(10) not null);
